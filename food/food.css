@@ -17,10 +17,12 @@ overflow: auto; /* To clear the float */
 float: left;
 width: 50%;
 display: inline-block;
+vertical-align: top;
 }
 
 .right-column {
 float: right;
 width: 50%;
 display: inline-block;
+vertical-align: top;
 }
