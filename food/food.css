@@ -6,3 +6,21 @@ h1 {
   color: navy;
   margin-left: 20px;
 }
+
+.container {
+width: 100%;
+display:block;
+overflow: auto; /* To clear the float */
+}
+
+.left-column {
+float: left;
+width: 50%;
+display: inline-block;
+}
+
+.right-column {
+float: right;
+width: 50%;
+display: inline-block;
+}
