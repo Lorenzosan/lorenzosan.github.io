@@ -24,6 +24,7 @@ background-color: #ccc;
 .right-column {
 float: left;
 width: 50%;
+padding-left: 50px;
 vertical-align: top;
 }
 
