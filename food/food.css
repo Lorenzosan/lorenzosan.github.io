@@ -22,7 +22,7 @@ background-color: #ccc;
 }
 
 .right-column {
-float: right;
+float: left;
 width: 50%;
 vertical-align: top;
 }
