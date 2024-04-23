@@ -25,7 +25,6 @@ background-color: #ccc;
 .right-column {
 float: right;
 width: 50%;
-display: inline-block;
 vertical-align: top;
 }
 
