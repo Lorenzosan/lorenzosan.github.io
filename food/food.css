@@ -15,9 +15,12 @@ overflow: auto; /* To clear the float */
 
 .left-column {
 float: left;
-width: 50%;
 display: inline-block;
 vertical-align: top;
+width: auto;
+height: 0;
+padding-bottom: 56.247%; /*image width * 100 / height*/
+background-color: #ccc;
 }
 
 .right-column {
@@ -26,3 +29,5 @@ width: 50%;
 display: inline-block;
 vertical-align: top;
 }
+
+
