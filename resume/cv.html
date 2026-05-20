@@ -1,61 +1,324 @@
 <!DOCTYPE html>
-<html>
- <head>
-   <!-- <title>YOUR NAME Portfolio</title> -->
-  <link rel="stylesheet" href="css/style.css">
- </head>
- <body>
-   <div class="container">
-     <div class="blurb">
-       <h1>Lorenzo Sanfilippo</h1>
-       <br>
-       <h2>Education</h2>
-       <ul>
-           <li> Nov 2022 to now - PhD student in Physics at the Heidelberg university. I am funded by CERN, that is the institution where I am carrying out my work.</li>
-           <li> Sep 2022 - MSc in Physics from the University of Milan (UNIMI)</li>
-           <li> Apr 2018 - BSc in Physics from the University of Milan (UNIMI)</li>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lorenzo Sanfilippo, PhD - CV</title>
+
+  <style>
+    :root {
+      --text: #1f2933;
+      --muted: #52606d;
+      --line: #d9e2ec;
+      --link: #1d4ed8;
+      --bg: #ffffff;
+    }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.45;
+    }
+
+    main {
+      max-width: 920px;
+      margin: 0 auto;
+      padding: 36px 24px 56px;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    h1 {
+      font-size: 2rem;
+      margin: 0 0 8px;
+    }
+
+    .contact {
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    section {
+      margin-top: 26px;
+    }
+
+    h2 {
+      font-size: 1.35rem;
+      border-bottom: 2px solid var(--line);
+      padding-bottom: 5px;
+      margin: 0 0 14px;
+    }
+
+    h3 {
+      font-size: 1.05rem;
+      margin: 0;
+    }
+
+    p {
+      margin: 0 0 10px;
+    }
+
+    ul {
+      margin: 6px 0 0 20px;
+      padding: 0;
+    }
+
+    li {
+      margin: 4px 0;
+    }
+
+    a {
+      color: var(--link);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .entry {
+      margin-bottom: 16px;
+    }
+
+    .entry-header {
+      display: flex;
+      justify-content: space-between;
+      gap: 16px;
+      align-items: baseline;
+      margin-bottom: 4px;
+    }
+
+    .role {
+      display: flex;
+      justify-content: space-between;
+      gap: 16px;
+      align-items: baseline;
+      margin-top: 10px;
+      font-style: italic;
+    }
+
+    .date,
+    .location {
+      color: var(--muted);
+      white-space: nowrap;
+    }
+
+    .skills p,
+    .courses p {
+      margin-bottom: 6px;
+    }
+
+    @media (max-width: 700px) {
+      .entry-header,
+      .role {
+        display: block;
+      }
+
+      .date,
+      .location {
+        white-space: normal;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <header>
+      <h1>Lorenzo Sanfilippo, PhD</h1>
+      <div class="contact">
+        Geneva, Switzerland | +41 76 817 8993 |
+        <a href="mailto:lorenzo.sanfilippo@gmail.com">lorenzo.sanfilippo@gmail.com</a>
+      </div>
+    </header>
+
+    <section>
+      <h2>Summary</h2>
+      <p>C++ and Python engineer working on systems where data, reliability, and decision-making under uncertainty are critical. Experience applying statistical modeling and time-series analysis to noisy signals, alongside developing monitoring and control infrastructure for complex systems. Focus on analyzing system behavior through data-driven methods.</p>
+    </section>
+
+    <section>
+      <h2>Experience</h2>
+
+      <div class="entry">
+        <div class="entry-header">
+          <h3>CERN</h3>
+          <span class="location">Geneva, Switzerland</span>
+        </div>
+
+        <div class="role">
+          <span>Applied Physicist</span>
+          <span class="date">Nov 2025 - Apr 2026</span>
+        </div>
+        <ul>
+          <li>Develop C++ software used to configure, control, and monitor a high-rate data acquisition system coordinating multiple hardware subsystems in continuous operation.</li>
+          <li>Analyze system behavior using monitoring data to investigate anomalies and performance issues.</li>
+          <li>Diagnose and resolve failures during live system operation by identifying root causes across interacting components, cross-checking independent signals, and applying corrective actions to restore normal behavior.</li>
         </ul>
-       <br>
-       <br>
-       <h2>Work experience</h2>
-       <ul>
-            <li>
-             <b> Nov 2023 to now - CERN doctoral student (Genève, GE, Switzterland) </b> 
-            </li>
-            <p />
-            <li>
-             <b> Mar 2021 to May 2022 - CERN technical student (Genève, GE, Switzterland) </b>
-            </li>
-            <p />
-            <li>
-             <b> May 2018 to Feb 2021 - Software developer at Saipem S.p.A (San Donato Milanese, MI, Italy) </b> 
-            </li>
-            <p />
-            <li>
-             <b> Jan 2014 to Apr 2018 - Static equipment engineer at Saipem S.p.A. (San Donato Milanese, MI, Italy) </b>
-            </li>
-            <p />
-            <li>
-             <b> Dec 2011 to Jan 2014 - AutoCAD & Inventor draftsman at CE.BI. Hi-tech (Cesano Maderno, MB, Italy) </b> <br />
-             Creation of 3D parts and assemblies with Autodesk Inventor, including construction drawings and exploded view diagrams. <br />
-             Creation of construction drawings with AutoCAD.
-            </li>
-       
-       </ul>
-       <br>
-       <br>
-       <h2>Other coursework, trainings and schools</h2>
-      <ul>
-       <li> I attended the 2 weeks ISOTDAQ school on Trigger and Data Acquistion in Istanbul in 2023 </li>
-       <li> Databases: Relational Databases and SQL - Stanford university (online through edX) - <a href="https://courses.edx.org/certificates/b788837dd8e54dfbba523551c1d53c96" target="_blank">Certification</a> </li>
-       <li> Stochastic Processes: Data Analysis and Computer Simulation - Kyoto university (online through edX) -  <a href="https://courses.edx.org/certificates/84953fd5e4ee4f54bd14783694a4043d" target="_blank">Certification</a> </li>
-      </ul> 
-     </div>
-   </div>
-   <footer>
-   <ul>
-     <!-- <li><a href=”mailto:lorenzo.sanfilippo@gmail.com”>YOUREMAIL</a></li> -->
-   </ul>
-   </footer>
- </body>
+
+        <div class="role">
+          <span>PhD Researcher</span>
+          <span class="date">Nov 2022 - Oct 2025</span>
+        </div>
+        <ul>
+          <li>Developed statistical models to characterize time-dependent instabilities in a high-precision timing distribution system, assessing the impact of environmental and system-level factors.</li>
+          <li>Validated models against observed timing data and applied results to design mitigation strategies.</li>
+          <li>Supervised three students, reviewing code and integrating their work into production systems.</li>
+        </ul>
+
+        <div class="role">
+          <span>Junior Software Engineer</span>
+          <span class="date">Mar 2021 - May 2022</span>
+        </div>
+        <ul>
+          <li>Developed C++ APIs interfacing with FPGA-based hardware for register access, configuration, and control within a distributed data acquisition system.</li>
+          <li>Designed and implemented monitoring tools to collect, process, and analyze system-level data from data acquisition workflows.</li>
+          <li>Built web-based interfaces for real-time visualization and interaction with system state and performance metrics.</li>
+        </ul>
+      </div>
+
+      <div class="entry">
+        <div class="entry-header">
+          <h3>Saipem Spa</h3>
+          <span class="location">San Donato Milanese, Italy</span>
+        </div>
+
+        <div class="role">
+          <span>Technical Analyst</span>
+          <span class="date">Apr 2018 - Feb 2021</span>
+        </div>
+        <ul>
+          <li>Developed and implemented thermodynamic modeling for multi-component combustion systems, including numerical solutions of nonlinear heat-balance equations.</li>
+          <li>Built data-driven models for early-stage plant configuration to estimate equipment size and cost drivers.</li>
+          <li>Analyzed project data to extract engineering and cost insights supporting commercial decisions.</li>
+        </ul>
+
+        <div class="role">
+          <span>Static Equipment Engineer</span>
+          <span class="date">Jan 2014 - Apr 2018</span>
+        </div>
+        <ul>
+          <li>Performed technical bid evaluations and compliance assessments for pressure equipment in EPC projects.</li>
+          <li>Reviewed vendor documentation to ensure conformity with specifications and standards, including ASME and PED.</li>
+          <li>Coordinated interfaces across process, layout, and procurement teams in schedule-driven projects.</li>
+        </ul>
+      </div>
+
+      <div class="entry">
+        <div class="entry-header">
+          <h3>CEBI Hi-tech Srl</h3>
+          <span class="location">Cesano Maderno, Italy</span>
+        </div>
+
+        <div class="role">
+          <span>Technical Staff</span>
+          <span class="date">Dec 2011 - Jan 2014</span>
+        </div>
+        <ul>
+          <li>Worked on technical design and drafting support for heavy-industry equipment fabrication.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2>Selected projects</h2>
+
+      <div class="entry">
+        <div class="entry-header">
+          <h3>Volatility modeling in financial markets (Python)</h3>
+          <a href="https://github.com/Lorenzosan/financial-volatility-modeling">financial-volatility-modeling</a>
+        </div>
+        <ul>
+          <li>Developed a time-series forecasting pipeline for short-term volatility prediction using lagged returns and rolling statistical features.</li>
+          <li>Benchmarked a persistence baseline, Ridge regression, and Random Forest models using chronological holdout and walk-forward evaluation.</li>
+          <li>Persistence-based forecasts remain hard to beat, as strong volatility persistence limits gains from return-based features and reduces improvements from machine learning models.</li>
+        </ul>
+      </div>
+
+      <div class="entry">
+        <div class="entry-header">
+          <h3>BTC market data and quoting engine (Python)</h3>
+          <a href="https://github.com/Lorenzosan/btc-market-maker">btc-market-maker</a>
+        </div>
+        <ul>
+          <li>Built a real-time market-making system ingesting multi-exchange order book data from Binance and Coinbase.</li>
+          <li>Reconstructed local order books and estimated fair value from cross-exchange data.</li>
+          <li>Implemented bid-ask quoting with inventory-aware pricing and dynamic sizing.</li>
+          <li>Designed safeguards for quoting under stale or inconsistent data conditions.</li>
+          <li>Sub-second quote updates, approximately 250 ms, in a live data environment.</li>
+        </ul>
+      </div>
+
+      <div class="entry">
+        <h3>Statistical modeling and control of timing instabilities (C++, Python)</h3>
+        <ul>
+          <li>Modeled timing instabilities under controlled perturbations using regression and time-series analysis with parameter estimation and uncertainty quantification.</li>
+          <li>Identified dominant drivers of instability and quantified their contribution through variance decomposition.</li>
+          <li>Designed and validated a feedback stabilization algorithm, PID-based, reducing timing variation from 30 ps to less than or equal to 6 ps peak-to-peak.</li>
+        </ul>
+      </div>
+
+      <div class="entry">
+        <h3>Parametric capacity scaling and cost estimation model (Python, PyQt)</h3>
+        <ul>
+          <li>Derived empirical scaling relationships between plant capacity and equipment size using historical data.</li>
+          <li>Evaluated variance and residuals of scaling relationships to assess extrapolation limits.</li>
+          <li>Implemented an algorithm generating preliminary equipment lists, sizes, and layout drafts from a single capacity input.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2>Education</h2>
+
+      <div class="entry">
+        <div class="entry-header">
+          <h3>PhD in Physics, Ruprecht-Karls-Universitat Heidelberg, Germany</h3>
+          <span class="date">Oct 2025</span>
+        </div>
+        <p><em>Testing the high-precision timing distribution for the ATLAS experiment at the HL-LHC</em></p>
+      </div>
+
+      <div class="entry">
+        <div class="entry-header">
+          <h3>M.Sc. in Physics, University of Milan, Italy</h3>
+          <span class="date">Sep 2022</span>
+        </div>
+        <p><em>Development of a monitoring system for the muon trigger of the ATLAS detector</em></p>
+      </div>
+
+      <div class="entry">
+        <div class="entry-header">
+          <h3>B.Sc. in Physics, University of Milan, Italy</h3>
+          <span class="date">Apr 2018</span>
+        </div>
+        <p><em>Implementation of quantum logic gates and quantum computation with trapped-ion systems</em></p>
+      </div>
+    </section>
+
+    <section class="skills">
+      <h2>Skills</h2>
+      <p><strong>Programming:</strong> C++, Python, Bash</p>
+      <p><strong>Scientific Computing:</strong> NumPy, Pandas, SciPy, scikit-learn</p>
+      <p><strong>Methods:</strong> Statistical modeling, regression, time-series analysis, numerical methods, optimization</p>
+      <p><strong>Tools:</strong> Git, CMake, GDB, Grafana</p>
+      <p><strong>Familiar:</strong> Tableau, CI/CD, SQL, Docker</p>
+      <p><strong>Systems:</strong> Hardware-software integration, data acquisition systems, monitoring infrastructure, distributed timing systems, White Rabbit, feedback control</p>
+      <p><strong>Languages:</strong> Italian native, English fluent, French work-proficient</p>
+    </section>
+
+    <section class="courses">
+      <h2>Courses</h2>
+      <p><a href="https://www.coursera.org/account/accomplishments/verify/HHQCOSQJNEUL">Financial Markets - Yale University, Coursera</a></p>
+      <p><a href="https://courses.edx.org/certificates/b788837dd8e54dfbba523551c1d53c96">Databases and SQL - Stanford University, edX</a></p>
+      <p><a href="https://courses.edx.org/certificates/84953fd5e4ee4f54bd14783694a4043d">Stochastic Processes and Simulation - Kyoto University, edX</a></p>
+      <p><a href="https://drive.google.com/file/d/1ChfrMJCnl300oEBQyuIE5DR4dHq95t8N/view">International School of Trigger and Data Acquisition - Istanbul University</a></p>
+    </section>
+  </main>
+</body>
 </html>
